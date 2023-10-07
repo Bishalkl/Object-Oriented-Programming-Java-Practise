@@ -1,0 +1,24 @@
+Certainly! Here are some exercises related to the topic of Classes and Objects in Java. These exercises will help you practice creating classes, defining attributes, and working with objects:
+
+Create a Student Class:
+Define a Student class with fields like name, age, and studentID. Create methods to set and retrieve these attributes. Then, create objects of the Student class and print their information.
+
+Bank Account:
+Create a BankAccount class with fields for accountNumber, accountHolder, and balance. Implement methods for depositing and withdrawing money from the account, and for displaying the current balance.
+
+Bookstore Inventory:
+Create a Book class that has attributes such as title, author, and price. Then, create an Inventory class that manages an array or list of Book objects. Implement methods to add books to the inventory, remove books, and display the list of books.
+
+Shapes and Areas:
+Define classes for different shapes like Circle, Rectangle, and Triangle. Each class should have methods to calculate their respective areas. Create objects for each shape and calculate their areas.
+
+Employee Management:
+Create an Employee class with attributes like name, employeeID, and salary. Implement methods to give a raise to an employee and display their information. Create an array or list of Employee objects and perform operations on them.
+
+Library Catalog:
+Design a Book class with attributes for title, author, and ISBN. Then, create a Library class to manage a collection of books. Implement methods to add books to the library, search for books by title or author, and display the list of available books.
+
+Car Rental System:
+Create a Car class with attributes like make, model, and rentalPricePerDay. Design a RentalAgency class that manages a fleet of cars. Implement methods for renting a car, returning a car, and calculating the rental cost for a customer.
+
+These exercises will help you practice creating classes, defining attributes, and working with objects in Java. You can customize and expand upon them to enhance your understanding of object-oriented programming concepts.
