@@ -20,10 +20,10 @@ class BankAccount{
 
         if(amount > 0){
             balance += amount;
-            System.out.println("The total amount after depositing is Rs" + balance + ".");
+            System.out.println("The total amount after depositing is Rs." + balance + ".");
+            System.out.println("The total balance is Rs." + amount + ".");
         }else{
-            System.out.println("The total balance is Rs" + amount + ".");
-
+            System.out.println("You don't have any amount to doposite");
         }
         System.out.println();
     }
@@ -35,8 +35,8 @@ class BankAccount{
 
         if(balance > 0 && updateBalance <= balance ){
              updateBalance= balance - updateBalance;
-            System.out.println("The amount you withdrew: Rs" + withdraw);
-           System.out.println("Your remaining balance after the withdrawal is Rs: " + withdraw);
+            System.out.println("The amount you withdrew: Rs." + withdraw);
+           System.out.println("Your remaining balance after the withdrawal is Rs." + withdraw);
         }else{
 
             System.out.println("No withdrawals have been made, or you don't have a sufficient balance.");
@@ -54,7 +54,7 @@ class BankAccount{
         System.out.println("Account Holder: " + accountHolder);
 
         // Print the current balance
-        System.out.println("Balance: Rs" + balance);
+        System.out.println("Balance: Rs." + balance);
 
         System.out.println();
 
