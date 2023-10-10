@@ -33,7 +33,7 @@ class Book{
     public double getPrice(){
         return price;
     }
-    // this to get private acess to updata and return books name, author and prices...
+    // to get private acess to updata and return books name, author and prices...
     public String toString(){
         return "Title: "+ title +" ,Author: " + author + " ,Price: RS." + price;
     }
@@ -90,10 +90,10 @@ public class PractiseThree {
         inventory.displayInventory();
 
         // this to add books
-        inventory.addBook("Rich Dad and Poor", "BIhsal dfjsdjklf jlkdj ", 1234.00);
+        inventory.addBook("sdfjdfldjfdjf", "BIhsal dfjsdjklf jlkdj ", 1234.00);
 
         // this to remove books
-        inventory.removeBook("The Great Gatsby");
+        inventory.removeBook("sdfjdfldjfdjf");
 
     }
 
