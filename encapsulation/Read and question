@@ -1,0 +1,19 @@
+Encapsulation is one of the four fundamental OOP concepts, along with inheritance, polymorphism, and abstraction. It refers to the bundling of data (attributes) and the methods (functions) that operate on that data into a single unit known as a class. The primary goal of encapsulation is to restrict access to the inner workings of an object and only expose a limited interface for interacting with it. In Java, you can achieve encapsulation using access modifiers.
+
+In Java, there are three main access modifiers:
+
+Public: Members (fields and methods) with this modifier are accessible from any other class.
+
+Private: Members with this modifier are only accessible within the class they are declared in. They are not visible to other classes.
+
+Protected: Members with this modifier are accessible within the same package and in subclasses, even if the subclass is in a different package.
+
+Create a class called Book with private fields for title, author, and price. Provide getter and setter methods for each of these fields. Ensure that the price cannot be set to a negative value.
+
+Create a Person class with private fields for name and age. Provide methods to get and set these fields, and make sure the age cannot be set to a negative value.
+
+Implement a Rectangle class that has private fields for length and width. Create methods to calculate the area and perimeter of the rectangle.
+
+Design a Car class with private fields for the make, model, and year. Create getter and setter methods for these fields. Ensure that the year is between 1886 (when the first car was invented) and the current year.
+
+Create a Bank class that represents a bank account. Use encapsulation to protect the account balance and provide methods for depositing and withdrawing money.
