@@ -1,0 +1,66 @@
+
+Certainly! Inheritance is a fundamental concept in Object-Oriented Programming (OOP). It allows you to create new classes based on existing classes, inheriting their attributes and methods. Here's a more detailed explanation of inheritance and six questions to help reinforce your understanding:
+
+Inheritance in Java:
+In Java, inheritance is a mechanism that enables one class to inherit the properties and behaviors of another class. It promotes code reuse and allows you to create a hierarchy of classes, where a subclass (derived class) can extend or specialize the features of a superclass (base class).
+
+1. What is a Superclass and Subclass in Inheritance?
+
+A superclass (base class) is the class from which other classes inherit properties and methods.
+A subclass (derived class) is the class that inherits from the superclass.
+2. How is Inheritance Achieved in Java?
+
+In Java, inheritance is achieved using the extends keyword. A subclass specifies the superclass it inherits from, like this: class Subclass extends Superclass.
+3. What are Inherited and Non-Inherited Members?
+
+Inherited members (attributes and methods) are those that are available to the subclass because they are defined in the superclass.
+Non-inherited members are those specific to the subclass, which are not part of the superclass.
+4. What is Method Overriding in Inheritance?
+
+Method overriding is the ability of a subclass to provide a specific implementation for a method that is already defined in the superclass. The subclass's method must have the same name, return type, and parameter list.
+5. Can a Java Class Inherit from Multiple Classes?
+
+Java supports single inheritance for classes. This means a class can inherit from only one superclass. However, a class can implement multiple interfaces, which provides a form of multiple inheritance.
+6. What is the "super" Keyword in Java Inheritance?
+
+The super keyword is used in Java to access members of the superclass from within the subclass. It can be used to call the superclass's constructor, access overridden methods, and access superclass attributes.
+Questions to Reinforce Understanding:
+
+Explain the concept of inheritance in Java and why it is important in Object-Oriented Programming.
+
+How is inheritance achieved in Java, and what is the role of the extends keyword?
+
+Provide an example of a superclass and a subclass relationship in Java, with attributes and methods.
+
+What is method overriding in the context of inheritance? Provide an example of a method in a superclass that is overridden in a subclass.
+
+Can a Java class inherit from multiple classes, and if not, how is multiple inheritance achieved in Java?
+
+What is the purpose of the super keyword in Java, and how is it used in inheritance? Give an example to illustrate its usage.
+
+
+
+
+User
+For practice 
+
+ChatGPT
+Certainly! Here are six practice questions related to inheritance in Java to reinforce your understanding:
+
+Question 1:
+Create a Vehicle class with attributes make and model. Then, create a Car subclass that inherits from Vehicle and adds an attribute year. Implement a method in Car to display all the attributes. Instantiate a Car object and display its attributes.
+
+Question 2:
+Explain the concept of method overriding in Java inheritance. Provide an example with a superclass Shape that has a method calculateArea() and a subclass Circle that overrides this method to calculate the area of a circle.
+
+Question 3:
+Create a superclass Person with attributes name and age. Create a subclass Student that inherits from Person and adds an attribute studentID. Implement a constructor in the Student class that initializes all attributes. Instantiate a Student object and display its attributes.
+
+Question 4:
+In a hypothetical e-commerce application, you have a superclass Product with attributes productName, price, and category. Create two subclasses, Electronics and Clothing, that inherit from Product. Add specific attributes to each subclass (e.g., manufacturer for Electronics, size for Clothing). Implement a method in each subclass to display all attributes.
+
+Question 5:
+Explain the "super" keyword in Java inheritance and provide an example of its usage. Create a superclass Animal with a method makeSound(), and a subclass Dog that overrides this method and uses the "super" keyword to call the superclass method before adding its own functionality.
+
+Question 6:
+Discuss the concept of multiple inheritance in Java and explain why Java supports multiple interface implementation but not multiple class inheritance. Provide an example of a class implementing multiple interfaces.
