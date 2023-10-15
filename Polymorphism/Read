@@ -1,0 +1,26 @@
+Polymorphism is one of the four fundamental principles of object-oriented programming (OOP). It allows objects of different classes to be treated as objects of a common superclass. Polymorphism is achieved in Java through method overriding and method overloading. Here's a detailed explanation:
+
+Method Overriding:
+Polymorphism is primarily achieved through method overriding. Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass. The key characteristics of method overriding are:
+
+The method in the subclass must have the same name, return type, and parameters as the method in the superclass.
+The method in the subclass must have a visibility that is at least as accessible as the method in the superclass.
+The method in the subclass cannot throw broader checked exceptions than the method in the superclass.
+The @Override annotation can be used to indicate that a method is intended to override a superclass method (optional but recommended).
+Here are six practice questions to test your understanding of method overriding and polymorphism:
+
+Practice Questions:
+
+Create a base class Shape with a method area() and then create subclasses Circle and Rectangle that override the area() method to calculate their respective areas.
+
+Implement a class hierarchy for different types of animals. Use method overriding to define a sound() method in each subclass (e.g., Dog, Cat, Duck) that outputs the sound the animal makes.
+
+Create an Employee superclass with attributes such as name, ID, and a calculateSalary() method. Derive subclasses for different types of employees (e.g., Manager, Developer) and override the calculateSalary() method to provide specific salary calculations.
+
+Design a simple banking system with a base class BankAccount and subclasses for different account types (e.g., SavingsAccount, CheckingAccount). Override the withdraw() method to handle account-specific rules.
+
+Create a hierarchy of geometric shapes, such as Triangle, Rectangle, and Circle, each with an area() method. Implement a method to find the total area of a list of these shapes (using polymorphism).
+
+Implement a basic plugin system where you have a Plugin interface with a run() method. Create multiple classes that implement this interface as different plugins, and demonstrate polymorphism by invoking the run() method on instances of these classes.
+
+These practice questions will help you understand how to effectively use method overriding and polymorphism in Java. It's important to ensure that the subclass methods adhere to the rules of method overriding, such as the method signature matching that of the superclass and maintaining the "is-a" relationship between subclasses and the superclass.
