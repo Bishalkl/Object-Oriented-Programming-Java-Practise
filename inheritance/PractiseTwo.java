@@ -27,5 +27,7 @@ public class PractiseTwo {
     public static void main(String[] args) {
         Shape newShape = new Circle(23);
         System.out.println( newShape.calculateArea());
+
+        
     }
 }
