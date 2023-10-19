@@ -1,0 +1,24 @@
+Banking System:
+
+Design a banking system with classes like Account, SavingsAccount, and CurrentAccount. Use abstraction to define common operations (e.g., deposit, withdraw) in an Account class and let the specific account types implement these operations differently.
+
+Shape Hierarchy:
+
+Create an abstract Shape class with methods like getArea and getPerimeter. Implement concrete classes for shapes like Circle, Rectangle, and Triangle, each providing their own implementation of area and perimeter calculations.
+
+Vehicle Management:
+
+Design a system for managing different types of vehicles (cars, bicycles, trucks). Create an abstract class Vehicle with common properties (e.g., speed, capacity) and methods (e.g., start, stop). Subclasses should implement these methods differently.
+
+Media Library:
+
+Build a media library with items like Movie, Music, and Book. Use an abstract class or interface to represent a common MediaItem with properties like title, author, and methods for describing the media.
+
+Employee Payroll:
+
+Develop an employee payroll system with classes like Employee, Manager, and Intern. Abstract away common attributes (e.g., name, salary) and methods (e.g., calculatePay) in a base Employee class 
+or interface.
+
+Cooking Recipes:
+
+Create a system for cooking recipes. Use abstraction to define a generic Recipe class or interface with methods like prepareIngredients and cook. Concrete classes can implement these methods for specific recipes like cakes, soups, or salads.
