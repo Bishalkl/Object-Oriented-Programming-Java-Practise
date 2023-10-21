@@ -22,3 +22,6 @@ or interface.
 Cooking Recipes:
 
 Create a system for cooking recipes. Use abstraction to define a generic Recipe class or interface with methods like prepareIngredients and cook. Concrete classes can implement these methods for specific recipes like cakes, soups, or salads.
+
+
+   
